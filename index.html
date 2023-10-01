@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="RegForm">
+        <form action="" class="RegForm">
+            <h2 class="center">Registration Form</h2>
+            <p class="center">Please fill out this form eith required information</p>
+            <fieldset>
+                
+            <label for="firstname">Enter Your First Name:
+               <br> <input id="firstname" type="text">
+            </label>
+            <br>
+            <label for="lastname">Enter Your Last Name:
+                <input id="lastname" type="text">
+            </label>
+            <br>
+            <label for="email">Enter Your Email:
+                <input id="email" type="email">
+            </label>
+            <br>
+            <label for="wassword">Create a New Password:
+                <input id="password" type="password">
+            </label>
+            </fieldset>
+                <label for="personal-account"> <input class="inline" type="checkbox">Personal Account:
+                </label>
+                <label for="Business-account"> <input type="checkbox" class="inline"> Business Account</label> <br>
+                <label for="checkbox"><input class="inline" type="checkbox" id="checkbox">I accept the <a href="#">terms and conditions</a>
+                </label>
+                <label for="file">Upload a profile picture:
+                    <input type="file">
+                </label>  <br>
+                <label for="age">Input your age (age)
+                    <input type="age">
+                </label> <br>
+                 <label for="referrer">
+                    How did you hear about us?
+                    <select id="referrer" name="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">freecodecamp news  </option>
+                        <option value="2"> freeCodeCamp YouTube Channel </option>
+                        <option value="3"> freeCodeCamp Forum</option>
+                        <option value="4"> Other</option>
+                    </select>
+                 </label>
+                 <label for="textarea">
+                    Provide a bio:
+                    <textarea name="textarea" id="textarea" cols="30" rows="3" placeholder="I like coding on the beach"></textarea>
+                 </label>
+            <button type="submit">Submit</button>
+        </form>
+
+    </main>
+</body>
+</html>
